@@ -24,13 +24,15 @@ func ItemSaver(host string) (chan engine.Item, error)  {
 				continue
 			}
 
-			profile := item.Payload.(model.Profile)
+			profile, ok := item.Payload.(model.Profile)
+			if !ok {
+				continue
+			}
+
 			if profile.Age == "" {
 				continue
 			}
 
-			log.Printf("Item Saver:got item "+"#%d: %v", itemCount, item)
-			itemCount ++
 
 			result := ""
 			err = client.Call(config.ItemSaverPrc, item, &result)
@@ -38,6 +40,9 @@ func ItemSaver(host string) (chan engine.Item, error)  {
 			if err != nil || result != "ok" {
 				log.Printf("Item Saver: error " + "saving item %v:%v", item, err)
 			}
+
+			log.Printf("Item Saver:got item "+"#%d: %v", itemCount, item)
+			itemCount ++
 		}
 	}()
 
