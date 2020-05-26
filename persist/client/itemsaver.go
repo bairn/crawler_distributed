@@ -1,10 +1,10 @@
 package client
 
 import (
-	"crawler/engine"
-	"crawler/model"
-	"crawler_distributed/config"
-	"crawler_distributed/rpcsupport"
+	"github.com/bairn/crawler/engine"
+	"github.com/bairn/crawler/model"
+	"github.com/bairn/crawler_distributed/config"
+	"github.com/bairn/crawler_distributed/rpcsupport"
 	"log"
 )
 

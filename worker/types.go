@@ -1,8 +1,8 @@
 package worker
 
 import (
-	"crawler/engine"
-	"crawler/zhenai/parser"
+	"github.com/bairn/crawler/engine"
+	"github.com/bairn/crawler/zhenai/parser"
 	"fmt"
 	"github.com/pkg/errors"
 	"log"

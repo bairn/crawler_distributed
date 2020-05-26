@@ -1,13 +1,13 @@
 package main
 
 import (
-	"crawler/engine"
-	"crawler/scheduler"
-	"crawler/zhenai/parser"
-	"crawler_distributed/config"
-	client2 "crawler_distributed/persist/client"
-	"crawler_distributed/rpcsupport"
-	"crawler_distributed/worker/client"
+	"github.com/bairn/crawler/engine"
+	"github.com/bairn/crawler/scheduler"
+	"github.com/bairn/crawler/zhenai/parser"
+	"github.com/bairn/crawler_distributed/config"
+	client2 "github.com/bairn/crawler_distributed/persist/client"
+	"github.com/bairn/crawler_distributed/rpcsupport"
+	"github.com/bairn/crawler_distributed/worker/client"
 	"flag"
 	"fmt"
 	"log"

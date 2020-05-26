@@ -1,9 +1,9 @@
 package main
 
 import (
-	"crawler/engine"
-	common "crawler/model"
-	"crawler_distributed/rpcsupport"
+	"github.com/bairn/crawler/engine"
+	common "github.com/bairn/crawler/model"
+	"github.com/bairn/crawler_distributed/rpcsupport"
 	"testing"
 	"time"
 )

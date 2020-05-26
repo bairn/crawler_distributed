@@ -1,8 +1,8 @@
 package persist
 
 import (
-	"crawler/engine"
-	"crawler/persist"
+	"github.com/bairn/crawler/engine"
+	"github.com/bairn/crawler/persist"
 	"gopkg.in/olivere/elastic.v5"
 )
 

@@ -1,8 +1,8 @@
 package main
 
 import (
-	"crawler_distributed/rpcsupport"
-	"crawler_distributed/worker"
+	"github.com/bairn/crawler_distributed/rpcsupport"
+	"github.com/bairn/crawler_distributed/worker"
 	"flag"
 	"fmt"
 	"log"

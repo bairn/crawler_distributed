@@ -1,8 +1,8 @@
 package client
 
 import (
-	"crawler/engine"
-	"crawler_distributed/worker"
+	"github.com/bairn/crawler/engine"
+	"github.com/bairn/crawler_distributed/worker"
 	"net/rpc"
 )
 

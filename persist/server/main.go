@@ -1,9 +1,9 @@
 package main
 
 import (
-	"crawler_distributed/config"
-	"crawler_distributed/persist"
-	"crawler_distributed/rpcsupport"
+	"github.com/bairn/crawler_distributed/config"
+	"github.com/bairn/crawler_distributed/persist"
+	"github.com/bairn/crawler_distributed/rpcsupport"
 	"fmt"
 	"gopkg.in/olivere/elastic.v5"
 	"log"

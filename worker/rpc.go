@@ -1,6 +1,6 @@
 package worker
 
-import "crawler/engine"
+import "github.com/bairn/crawler/engine"
 
 type CrawService struct {}
 
